@@ -167,12 +167,12 @@ def compare_images(image1_path, image2_path):
         print("Unable to determine the nature of the images.")
 
 # Example usage
-real_images_dir = r'E:\codes\pythonn\AI project\Real'
-ai_generated_images_dir = r'E:\codes\pythonn\AI project\Ai'
+real_images_dir =r'path\to\your\RealImages'
+ai_generated_images_dir = r'path\to\your\AiImages'
 
 # Train the image classifier using the default RandomForestClassifier
 model = train_image_classifier(real_images_dir, ai_generated_images_dir)
 
 if model is not None:
     # Compare two images
-    compare_images("E:\codes\pythonn\AI project\image1.jpg", "E:\codes\pythonn\AI project\image2.jpg")
+    compare_images("path\to\your\Imagetest1.jpg", "path\to\your\Imagetest2.jpg")
