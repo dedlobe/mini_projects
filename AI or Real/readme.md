@@ -20,4 +20,5 @@ This program analyzes images to classify them as real photos or AI-generated bas
 
 `Example Usage`: This section shows how to use the functions to train a model and compare two images.
 
-
+### ps.
+The dataset I used for trainning contains 4000 for AI images and 3500 for real images.
