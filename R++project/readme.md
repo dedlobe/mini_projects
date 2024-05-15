@@ -1,3 +1,8 @@
+# Summary
+The code is designed to read a file containing expressions written in a custom language called "R++" (Reverse Polish Notation with Python-like operators), and then convert these expressions into Python equivalents. The expressions in the file are used to calculate the values of two variables, x and y.
+
+# Explanation
+
  ### 1. rpp_to_python function:
 
 - This function takes two arguments: an R++ expression (expression) and the current value of ```x (x_value)```. It performs the following actions:
