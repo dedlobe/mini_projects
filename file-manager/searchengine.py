@@ -152,7 +152,7 @@ def Similarfile(fileid1,fileid2):
 #********************works******************************************************
 def Popularword():
     count = Counter()
-    DIR = "E:\\codes\\pythonn\\matrix"
+    DIR = "path:\\to\\your\\folder"
 
     for filename in os.listdir(DIR):
         if filename.endswith(".txt"):
